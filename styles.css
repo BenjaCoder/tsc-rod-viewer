@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Matrix Regular Small Caps';
+    src: url('MatrixRegularSmallCaps_Regular.ttf');
+}
+
+.normal {
+    background-color: #FEFF99;
+}
+
+.effect {
+    background-color: #FFDDBB;
+}
+
+.card-item {
+    width: 650px;
+    margin: auto;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 2px solid blue;
+}
+
+.card-name {
+    font-family: 'Matrix Regular Small Caps';
+    font-size: 28px;
+    font-style: italic;
+    background-color: lightblue;
+    padding: 2px 12px 2px 10px;
+    transform: skewX(-10deg);
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 2px 2px 0px black;
+}
+
+.id-circ {
+    background-color: lightgreen;
+    border-radius: 100%;
+    font-family: 'Matrix Regular Small Caps';
+    font-size: 24px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border: 2px solid black;
+}
+
+p { margin: 1px; }
+
+.top-line {
+    margin-bottom: 4px;
+}
